@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bootstrap Project Travel Agency</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+
+		<script
+			src="https://kit.fontawesome.com/dd5d9c30fe.js"
+			crossorigin="anonymous"
+		></script>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- Header Section -->
+		<header>
+			<nav class="navbar navbar-expand-md navbar-light bg-light py-3 fixed-top">
+				<div class="container">
+					<a class="navbar-brand" href="#">Dream Travels</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#destinations">Destinations</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#tours">Tours</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Hero Section -->
+
+		<div id="hero_section">
+			<div style="width: 100%" class="hero_text">
+				<h1 class="hero_headline">Dream Travels</h1>
+				<p class="hero_subhead">
+					<span>Exploring Destinations</span> | Creating Memories
+				</p>
+				<br /><br />
+				<button class="hero_btn btn btn-info">Book your Holiday</button>
+			</div>
+		</div>
+		<!-- Destinations-->
+		<div class="container">
+			<div class="row my-5" id="destinations">
+				<h3 class="section_head mb-3">Our Destinations</h3>
+				<div class="col-12 col-sm-4">
+					<div class="card">
+						<img
+							class="card-img-top"
+							src="/images/new_york.jpg"
+							alt="menu image"
+						/>
+						<div class="card-body">
+							<h5 class="Rice">Morocco</h5>
+							<p class="card-text">
+								Morocco is one of the most beatiful countries in North Africa.
+								We constantly go there every year for tours.
+							</p>
+							<a href="#" class="btn btn-info">Learn More</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-sm-4">
+					<div class="card">
+						<img
+							class="card-img-top"
+							src="/images/Maldives.jpg"
+							alt="menu image"
+						/>
+						<div class="card-body">
+							<h5 class="Burger">Kenya</h5>
+							<p class="card-text">
+								Kenya is one of the most beatiful countries in East Africa. We
+								constantly go there every year for tours.
+							</p>
+							<a href="#" class="btn btn-info">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-4">
+					<div class="card">
+						<img
+							class="card-img-top"
+							src="images/London.jpg"
+							alt="menu image"
+						/>
+						<div class="card-body">
+							<h5 class="Pizza">Qatar</h5>
+							<p class="card-text">
+								Qatar is one of the most beatiful countries in Middle East. We
+								constantly go there every year for tours.
+							</p>
+							<a href="#" class="btn btn-info">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Tours -->
+
+			<div class="row" id="tours">
+				<h3 class="section_head mb-3">Our Tours</h3>
+			</div>
+			<div class="accordion" id="accordionExample">
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button
+							class="accordion-button"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#collapseOne"
+							aria-expanded="true"
+							aria-controls="collapseOne"
+						>
+							Marrakech Family Retreat
+						</button>
+					</h2>
+					<div
+						id="collapseOne"
+						class="accordion-collapse collapse show"
+						data-bs-parent="#accordionExample"
+					>
+						<div class="accordion-body">
+							<strong>A Family-Friendly Moroccan Experience.</strong> Experience
+							the perfect family getaway in Marrakech from September 1st to 5th,
+							2025. This 4-night retreat is designed for two adults and two
+							children, offering a seamless blend of culture, adventure, and
+							relaxation. For ₦3,051,500, immerse your family in the rich
+							traditions and stunning landscapes of Morocco.
+							<a href="#" target="_blank"
+								><button type="button" class="btn btn-info">
+									View Details
+								</button></a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button
+							class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#collapseTwo"
+							aria-expanded="false"
+							aria-controls="collapseTwo"
+						>
+							Nairobi Tour
+						</button>
+					</h2>
+					<div
+						id="collapseTwo"
+						class="accordion-collapse collapse"
+						data-bs-parent="#accordionExample"
+					>
+						<div class="accordion-body">
+							<strong>This is the second item's accordion body.</strong>Are you
+							ready to explore the vibrant city of Nairobi, Kenya? Dream Travels
+							Holidays is excited to present an exclusive Zero Interest & Zero
+							Service Fee Pathfinders Club Package to Nairobi from 30th April to
+							4th May..
+							<a href="#" target="_blank"
+								><button type="button" class="btn btn-info">
+									View Details
+								</button></a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button
+							class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#collapseThree"
+							aria-expanded="false"
+							aria-controls="collapseThree"
+						>
+							Doha Tour
+						</button>
+					</h2>
+					<div
+						id="collapseThree"
+						class="accordion-collapse collapse"
+						data-bs-parent="#accordionExample"
+					>
+						<div class="accordion-body">
+							<strong>Discover the Magic of Doha.</strong> Are you ready to
+							explore the vibrant city of Doha, Qatar? Dream Travels Holidays is
+							thrilled to present an exclusive Zero-Interest Pathfinders Club
+							Package to Doha, from 16th to 21st April (Easter Edition). This
+							specially curated package offers you the chance to experience the
+							perfect blend of modernity and tradition in one of the Middle
+							East’s most dynamic cities.
+							<a href="#" target="_blank"
+								><button type="button" class="btn btn-info">
+									View Details
+								</button></a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--  Contact -->
+			<div id="contact">
+				<h3 class="section_head mb-3">Contact Us</h3>
+				<form class="mb-5">
+					<div class="form-group">
+						<label for="name" class="ps-2">Full Name</label>
+						<input
+							type="text"
+							class="form-control"
+							id="name"
+							placeholder="Enter Full Name"
+						/>
+					</div>
+					<div class="form-group">
+						<label for="Email1" class="ps-2">Email address</label>
+						<input
+							type="email"
+							class="form-control"
+							id="email"
+							aria-describedby="emailHelp"
+							placeholder="Enter email"
+						/>
+					</div>
+					<div class="form-group">
+						<label for="destination" class="ps-2"
+							>Destination of Interest</label
+						>
+						<input
+							type="text"
+							class="form-control"
+							id="email"
+							aria-describedby="emailHelp"
+							placeholder="Enter Your Destination"
+						/>
+					</div>
+
+					<div class="form-group">
+						<label for="message" class="ps-2">Message</label>
+						<textarea class="form-control" id="message" rows="3"></textarea>
+					</div>
+					<button type="submit" class="btn btn-info my-2 ms-2">Submit</button>
+				</form>
+			</div>
+		</div>
+		<!--  Footer -->
+		<footer class="container-fluid">
+			<div class="row">
+				<div class="col-6">&copy2025 Kreatify Travels</div>
+
+				<div class="col-6">
+					<ul class="socials ms-auto">
+						<li>
+							<a href="http://www.twitter.com" target="_blank">
+								<i class="fa fa-twitter fa-2x me-2"></i
+							></a>
+						</li>
+						<li>
+							<a href="http://www.youtube.com" target="_blank"
+								><i class="fab fa-youtube fa-2x me-2"></i
+							></a>
+						</li>
+						<li>
+							<a href="http://www.facebook.com" target="_blank">
+								<i class="fa fa-facebook fa-2x me-2"></i
+							></a>
+						</li>
+						<li>
+							<a href="http://www.instagram.com" target="_blank">
+								<i class="fa fa-instagram fa-2x me-2"></i
+							></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
